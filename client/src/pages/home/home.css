@@ -1,0 +1,12 @@
+
+.home-img{
+  margin: 30px;
+  position: absolute;
+}
+
+@media screen and (max-width:1000px){
+  .home-img{
+    display: none;
+  }
+
+}

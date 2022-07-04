@@ -1,0 +1,58 @@
+.update_user{
+    height: calc(100vh - 86px);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(231, 231, 8);
+}
+
+.update_container{
+    background-color: white;
+    width: 450px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.update_title{
+    margin: 30px;
+    color:rgb(145, 135, 135);
+    text-align: center;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.update_form{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.update_input{
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border:none;
+    border-radius: 5px;
+}
+
+.update_input:focus{
+    outline: 1px solid black;
+}
+
+.update_button{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+@media screen and (max-width:1000px){
+    .update_user{
+        background-color: white;
+    }
+    .update_container{
+        background-color: rgb(245, 245, 77);
+    }
+}

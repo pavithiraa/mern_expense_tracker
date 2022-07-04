@@ -1,0 +1,70 @@
+.display_button{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ .display_button .btn{
+    width: 90%;
+}
+
+.user_history{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.user_history:first-child{
+    background-color: rgb(245, 118, 118,0.3);
+}
+
+.user_history:last-child{
+    background-color: rgb(150, 157, 241,0.3);
+}
+
+.user_history h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 30px;
+    margin: 5px 50px 0 50px ;
+}
+
+.history_title{
+   text-align: center;
+   border-bottom: 1px solid lightgray;
+}
+
+.history_content{
+    margin: 10px;
+    font-size:18px;
+}
+
+
+.history_exp{
+    color:red;
+}
+
+.history_inc{
+    color:blue;
+}
+
+
+@media (max-width:1000px){
+    .display_button{
+        align-items: center;
+        flex-direction: column;
+    }
+    .display_button .btn{
+        width: 90%;
+       margin:5px;
+    }
+}

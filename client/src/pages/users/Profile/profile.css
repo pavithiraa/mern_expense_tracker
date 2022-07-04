@@ -1,0 +1,129 @@
+.profile-container{
+    height: calc(100vh - 86px);
+    display: flex;
+}
+
+.profile_left{
+    flex:1;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile_edit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile_details{
+    text-align:center
+}
+
+.profile_details_name{
+    background-color: rgb(43, 5, 255);
+    padding: 5px;
+    border-radius: 5px;
+    color:white;
+    font-size: 30px;
+    font-weight:bold;
+}
+
+.profile_details_record{
+    background-color: rgb(58, 85, 3);
+    border-radius: 50px;
+    margin-bottom: 5px;
+    padding: 7px;
+    color:white;
+}
+
+.profile_details_email{
+    color:dodgerblue;
+    margin: 5px;
+    font-weight: 700;
+ 
+}
+.profile_details_email:hover{
+    height: 20px;
+    border-bottom: 0.5px solid dodgerblue;
+}
+
+.profile_pic{
+    height: 300px;
+    width: 300px;
+ margin: 30px;
+ border:1px solid blue;
+ border-radius: 10px;
+ background-color: rgb(187, 187, 187);
+}
+
+.profile_right{
+    margin-top: 30px;
+    /* background-color: rgb(9, 5, 255); */
+    color:white;
+    flex:6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+
+}
+
+.profile_chart{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.profile_content{
+    margin: 30px;
+    padding: 20px;
+    height: 600px;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color:rgb(27, 26, 26);
+}
+
+
+
+
+.history{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.history_title{
+   text-align: center;
+   color: blue;
+   border-bottom: 1px solid lightgray;
+}
+
+
+@media (max-width:1000px){
+    .profile-container{
+        flex-direction: column;
+    }
+
+    .profile_left{
+        display: flex;
+    align-items: center;
+    flex-direction: column;
+    }
+
+    .display_button{
+        align-items: center;
+        flex-direction: column;
+    }
+    .display_button .btn{
+        width: 90%;
+        margin: 10px;
+    }
+}

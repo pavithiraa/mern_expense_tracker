@@ -1,0 +1,19 @@
+.income_button{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+  }
+  
+  .income_top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .income_content{
+      margin-bottom: 0;
+  }
+  
+  
+  

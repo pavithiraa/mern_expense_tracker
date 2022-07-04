@@ -1,0 +1,9 @@
+.incomes_list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.incomes_list_tilte{
+    font-size: 25px;
+}
